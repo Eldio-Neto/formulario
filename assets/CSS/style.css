@@ -40,6 +40,7 @@ body{
 
 .input-area label{
     display: block;
+    cursor: pointer;
     
 }
 .input-area input{

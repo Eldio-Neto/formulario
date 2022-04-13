@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Consulta CEP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="titulo">
+            <h1>Cadastro</h1>
+        </div>
+
+        <fieldset class="user-name">
+            <div class="input-area">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="input-area"">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="user-adress">
+
+            <div class="input-area">
+                <label for="cep">Cep:</label>
+                <input type="text" name="nome" id="cep" minlength="8" maxlength="8" required >
+            </div>
+
+            <div class="input-area">
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" id="rua" required>
+            </div>
+
+            <div class="input-area">
+                <label for="numero">Numero:</label>
+                <input type="text" name="numero" id="numero" required>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="user-state">
+
+            <div class="input-area">
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="nome" id="bairro" required>
+            </div>
+
+            <div class="input-area">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="rua" id="cidade" required>
+            </div>
+
+            <div class="input-area">
+                <label for="estado">Estado:</label>
+                <input type="text" name="numero" id="estado" required>
+            </div>
+
+        </fieldset>
+
+        <button class="button">Salvar informações</button>
+    </div>
+
+    <script src="./assets/JS/script.js"></script>
+</body>
+
+</html>
